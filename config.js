@@ -50,7 +50,8 @@ window.SITE = {
      "https://www.instagram.com/p/ABC123/",
      Laat je de lijst leeg, dan toont de site nette lege plekken. */
   instagramPosts: [
-    "https://www.instagram.com/reel/DeewNDkI0vP/",
-    "https://www.instagram.com/reel/Dewo3FAo5CC/"
+    "https://www.instagram.com/p/DgFGGbRCIUa/",
+    "https://www.instagram.com/p/Del1eD_iAUe/",
+    "https://www.instagram.com/p/DeRo-LviIFF/"
   ]
 };
