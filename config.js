@@ -6,7 +6,7 @@ window.SITE = {
   /* --- 1. PLACEHOLDERS: vul deze in ------------------------- */
   email: "nikitamasseling@gmail.com",                     // bijv. "hallo@nikitamasseling.com"
   kofiUrl: "KOFI_URL",                 // bijv. "https://ko-fi.com/nikitamasseling"
-  instagramHandle: "JOUW_IG_NAAM",     // zonder @, bijv. "nikitamasseling"
+  instagramHandle: "nikitamasseling",    // zonder @, bijv. "nikitamasseling"
 
   /* --- 2. Vaste links --------------------------------------- */
   tiktokHandle: "nikitamasseling",
