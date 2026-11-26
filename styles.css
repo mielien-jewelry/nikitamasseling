@@ -282,3 +282,5 @@ html[lang="nl"] [lang="en"], html[lang="en"] [lang="nl"] { display: none !import
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+[hidden] { display: none !important; }

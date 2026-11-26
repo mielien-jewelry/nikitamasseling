@@ -14,7 +14,12 @@
     kofi: S.kofiUrl,
     moai: S.moaiUrl
   };
-  $$("[data-link]").forEach(function (a) { a.href = links[a.dataset.link]; });
+  /* Nog niet ingevuld in config.js? Dan verbergen we de knop i.p.v. een dode link. */
+  var missing = { email: S.email === "EMAIL", kofi: S.kofiUrl === "KOFI_URL", instagram: S.instagramHandle === "JOUW_IG_NAAM" };
+  $$("[data-link]").forEach(function (a) {
+    if (missing[a.dataset.link]) a.hidden = true; else a.href = links[a.dataset.link];
+  });
+  if (missing.kofi) doc.getElementById("steun").hidden = true;
   $$("[data-img]").forEach(function (img) {
     var src = S.images && S.images[img.dataset.img];
     if (src && img.getAttribute("src") !== src) img.src = src;
