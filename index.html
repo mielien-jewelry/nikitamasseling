@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="nl" data-design="editorial">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nikita Masseling — vanlife in Spanje met Bailey</title>
+<meta name="description" content="Nikita (25) reist met hond Bailey door Spanje in haar zelfgebouwde camper. Vanlife, suppen, hiken, wildkamperen en eerlijke vlogs — ook van de klusdagen.">
+<meta name="theme-color" content="#FBF6EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1E27" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+
+<!-- Open Graph: zo ziet de link eruit als je hem deelt -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nikita Masseling">
+<meta property="og:title" content="Nikita Masseling — vanlife in Spanje met Bailey">
+<meta property="og:description" content="Zelfgebouwde camper, één hond en heel veel Spanje. Eerlijke vanlife-vlogs, ook van de klusdagen.">
+<meta property="og:image" content="assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Nikita Masseling — vanlife in Spanje met Bailey">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+<script>
+/* Taal en design zetten vóór de pagina tekent (geen flits). */
+(function () {
+  var d = document.documentElement, q = new URLSearchParams(location.search), lang;
+  try { lang = localStorage.getItem("lang"); } catch (e) {}
+  lang = q.get("lang") || lang || ((navigator.language || "nl").slice(0, 2) === "nl" ? "nl" : "en");
+  d.lang = lang === "en" ? "en" : "nl";
+  d.dataset.design = q.get("design") || (window.SITE && SITE.design) || "editorial";
+  d.classList.add("js");
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="nl">Naar de inhoud</span><span lang="en">Skip to content</span></a>
+
+<header class="top">
+  <a class="brand" href="#home" aria-label="Nikita Masseling — home">Nikita <em>Masseling</em></a>
+  <nav class="nav" aria-label="Hoofdmenu">
+    <a href="#over"><span lang="nl">Over mij</span><span lang="en">About</span></a>
+    <a href="#videos"><span lang="nl">Video's</span><span lang="en">Videos</span></a>
+    <a href="#instagram">Instagram</a>
+    <a href="#moai">Moai</a>
+    <a href="#samenwerken"><span lang="nl">Samenwerken</span><span lang="en">Work with me</span></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Taal / Language">
+    <button type="button" data-set-lang="nl" aria-label="Nederlands">NL</button>
+    <button type="button" data-set-lang="en" aria-label="English">EN</button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ 1. HOME ============ -->
+<section class="hero" id="home">
+  <div class="hero__body">
+    <p class="eyebrow"><span lang="nl">Vanlife · Spanje · met Bailey</span><span lang="en">Vanlife · Spain · with Bailey</span></p>
+    <h1>Nikita <em>Masseling</em></h1>
+    <p class="hero__intro" lang="nl">Ik ben 25, woon in een camper die ik zelf heb gebouwd en reis met mijn hond Bailey door Spanje. Suppen, hiken, wildkamperen — en ja, ook de dagen dat alles lekt.</p>
+    <p class="hero__intro" lang="en">I'm 25, I live in a camper I built myself and I travel through Spain with my dog Bailey. Paddleboarding, hiking, wild camping — and yes, the days when everything leaks too.</p>
+    <div class="cta">
+      <a class="btn btn--primary" data-link="tiktok" href="https://www.tiktok.com/@nikitamasseling" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+        TikTok
+      </a>
+      <a class="btn btn--ghost" data-link="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+        Instagram
+      </a>
+      <a class="btn btn--accent" href="#samenwerken"><span lang="nl">Samenwerken</span><span lang="en">Work with me</span> <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <div class="hero__media">
+    <img data-img="hero" src="assets/hero.jpg" width="2000" height="1300" fetchpriority="high"
+         alt="Zonsondergang boven de Spaanse kust, met een camper op een klif boven zee"
+         data-alt-en="Sunset over the Spanish coast, with a camper van on a cliff above the sea">
+  </div>
+</section>
+
+<div class="strip" aria-hidden="true">
+  <span lang="nl">vanlife</span><span lang="en">vanlife</span><i></i>
+  <span lang="nl">suppen</span><span lang="en">paddleboarding</span><i></i>
+  <span lang="nl">hiken</span><span lang="en">hiking</span><i></i>
+  <span lang="nl">wildkamperen</span><span lang="en">wild camping</span><i></i>
+  <span lang="nl">klusdagen</span><span lang="en">fix-it days</span><i></i>
+  <span>Bailey</span>
+</div>
+
+<!-- ============ 2. OVER MIJ ============ -->
+<section class="section about" id="over">
+  <div class="about__media reveal">
+    <img data-img="about" src="assets/about.jpg" width="900" height="1125" loading="lazy"
+         alt="Nikita en haar hond Bailey bij de camper"
+         data-alt-en="Nikita and her dog Bailey next to the camper">
+  </div>
+  <div class="about__text reveal">
+    <p class="eyebrow"><span lang="nl">Over mij</span><span lang="en">About me</span></p>
+    <h2 lang="nl">Een huis op wielen, <em>zelf in elkaar gezet</em></h2>
+    <h2 lang="en">A home on wheels, <em>built with my own hands</em></h2>
+
+    <div lang="nl">
+      <p>Hoi, ik ben Nikita. Ik heb mijn camper zelf gebouwd: van kale bus tot een huisje met een bed, een keuken en verrassend veel schroeven die ik nog steeds terugvind. Niet alles zit recht. Het is wél van mij.</p>
+      <p>Nu rijd ik met Bailey door Spanje. Bailey is mijn reisgenoot, mijn wekker en de enige aan boord die nooit over de route klaagt. Samen zoeken we stille plekken, water om op te suppen en paden die net iets te steil blijken.</p>
+      <p>Waarom vanlife? Omdat ik liever wakker word met uitzicht dan met een wekker. Maar ik laat ook de andere kant zien: regendagen, klusdagen en dagen waarop de stroom het niet doet. Dat hoort erbij, dus dat film ik ook.</p>
+    </div>
+    <div lang="en">
+      <p>Hi, I'm Nikita. I built my camper myself: from an empty van to a tiny home with a bed, a kitchen and a surprising number of screws I still keep finding. Not everything is straight. It is mine, though.</p>
+      <p>These days I drive through Spain with Bailey. Bailey is my travel buddy, my alarm clock and the only one on board who never complains about the route. Together we look for quiet spots, water to paddle on and trails that turn out slightly too steep.</p>
+      <p>Why vanlife? Because I'd rather wake up to a view than to an alarm. But I show the other side too: rainy days, fix-it days and days when the power just won't work. It's part of the deal, so I film that as well.</p>
+    </div>
+
+    <dl class="facts">
+      <div><dt><span lang="nl">Thuis</span><span lang="en">Home</span></dt><dd><span lang="nl">Zelfbouwcamper</span><span lang="en">Self-built camper</span></dd></div>
+      <div><dt><span lang="nl">Reisgenoot</span><span lang="en">Co-pilot</span></dt><dd>Bailey</dd></div>
+      <div><dt><span lang="nl">Nu in</span><span lang="en">Currently in</span></dt><dd><span lang="nl">Spanje</span><span lang="en">Spain</span></dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ 3. VIDEO'S ============ -->
+<section class="section" id="videos">
+  <div class="head reveal">
+    <p class="eyebrow">TikTok</p>
+    <h2 lang="nl">Best bekeken <em>video's</em></h2>
+    <h2 lang="en">Most watched <em>videos</em></h2>
+    <p class="lede" lang="nl">Tik op een video om hem te laden. Pas dan maakt je browser verbinding met TikTok.</p>
+    <p class="lede" lang="en">Tap a video to load it. Only then does your browser connect to TikTok.</p>
+  </div>
+  <div class="videos" id="video-list"></div>
+  <noscript><p><a href="https://www.tiktok.com/@nikitamasseling">Bekijk mijn video's op TikTok →</a></p></noscript>
+  <p class="more reveal"><a class="link" data-link="tiktok" href="https://www.tiktok.com/@nikitamasseling" target="_blank" rel="noopener"><span lang="nl">Alle video's op TikTok</span><span lang="en">All videos on TikTok</span> →</a></p>
+</section>
+
+<!-- ============ 4. INSTAGRAM ============ -->
+<section class="section section--tint" id="instagram">
+  <div class="head reveal">
+    <p class="eyebrow">Instagram</p>
+    <h2 lang="nl">De rustige <em>kant</em></h2>
+    <h2 lang="en">The quiet <em>side</em></h2>
+    <p class="lede" lang="nl">Foto's van onderweg. Tik op een post om hem te laden van Instagram.</p>
+    <p class="lede" lang="en">Photos from the road. Tap a post to load it from Instagram.</p>
+  </div>
+  <div class="insta" id="insta-list"></div>
+  <p class="more reveal"><a class="btn btn--ghost" data-link="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+    <span lang="nl">Volg me op Instagram</span><span lang="en">Follow me on Instagram</span></a></p>
+</section>
+
+<!-- ============ 6. MOAI ============ -->
+<section class="moai" id="moai">
+  <div class="moai__inner">
+    <div class="moai__media reveal">
+      <img data-img="moai" src="assets/moai.jpg" width="900" height="1125" loading="lazy"
+           alt="Nikita op haar Moai-supboard op kalm water"
+           data-alt-en="Nikita on her Moai paddleboard on calm water">
+    </div>
+    <div class="moai__text reveal">
+      <p class="adlabel"><span lang="nl">Reclame · affiliate-link</span><span lang="en">Ad · affiliate link</span></p>
+      <h2 lang="nl">Mijn sup komt van <em>Moai</em></h2>
+      <h2 lang="en">My paddleboard is by <em>Moai</em></h2>
+      <p lang="nl">Mijn Moai-board gaat overal mee naartoe. Opgerold past het in de camper, opgepompt ben ik binnen tien minuten het water op. Bailey vaart mee, meestal voorop en zelden droog.</p>
+      <p lang="en">My Moai board comes everywhere with me. Rolled up it fits in the camper, pumped up I'm on the water within ten minutes. Bailey rides along, usually up front and rarely dry.</p>
+      <a class="btn btn--sand" data-link="moai" href="https://moaithebrand.com?sca_ref=12484037.cF4WWWBnthUSU" target="_blank" rel="sponsored noopener">
+        <span lang="nl">Bekijk de boards van Moai</span><span lang="en">See Moai's boards</span> <span aria-hidden="true">↗</span>
+      </a>
+      <p class="fine" lang="nl">Dit is reclame. Moai is mijn merkpartner en dit is een affiliate-link: koop je via deze link, dan krijg ik een kleine commissie. Jij betaalt niets extra.</p>
+      <p class="fine" lang="en">This is advertising. Moai is my brand partner and this is an affiliate link: if you buy through it, I earn a small commission. You pay nothing extra.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. SAMENWERKEN / MEDIAKIT ============ -->
+<section class="section" id="samenwerken">
+  <div class="head reveal">
+    <p class="eyebrow"><span lang="nl">Voor merken · mediakit</span><span lang="en">For brands · media kit</span></p>
+    <h2 lang="nl">Laten we <em>samenwerken</em></h2>
+    <h2 lang="en">Let's <em>work together</em></h2>
+    <p class="lede" lang="nl">Ik maak eerlijke content waarin jouw product echt gebruikt wordt: in de camper, op het water en op het pad. Geen gladde reclame, wel video's die mensen uitkijken.</p>
+    <p class="lede" lang="en">I make honest content where your product actually gets used: in the camper, on the water and on the trail. No glossy ads, just videos people watch to the end.</p>
+  </div>
+
+  <div class="stats reveal">
+    <div class="stat stat--big">
+      <b data-stat="topViews">184K</b>
+      <span lang="nl">views op mijn best bekeken video</span><span lang="en">views on my most watched video</span>
+    </div>
+    <div class="stat">
+      <b data-stat="likes">33,6K</b>
+      <span lang="nl">likes op TikTok</span><span lang="en">likes on TikTok</span>
+    </div>
+    <div class="stat">
+      <b data-stat="followers">4.239</b>
+      <span lang="nl">volgers op TikTok</span><span lang="en">followers on TikTok</span>
+    </div>
+  </div>
+  <p class="fine fine--center"><span lang="nl">Stand per</span><span lang="en">As of</span> <span data-stat="date">26 nov 2026</span> · TikTok @nikitamasseling</p>
+
+  <div class="kit">
+    <article class="card reveal">
+      <h3><span lang="nl">Doelgroep</span><span lang="en">Audience</span></h3>
+      <ul lang="nl">
+        <li>Vanlifers en mensen die ervan dromen</li>
+        <li>Outdoor-liefhebbers: suppen, hiken, kamperen</li>
+        <li>Hondenbezitters die met hun hond reizen</li>
+        <li>Vooral Nederlandstalig, groeiend internationaal</li>
+      </ul>
+      <ul lang="en">
+        <li>Vanlifers and people who dream of it</li>
+        <li>Outdoor lovers: paddleboarding, hiking, camping</li>
+        <li>Dog owners who travel with their dog</li>
+        <li>Mostly Dutch-speaking, growing internationally</li>
+      </ul>
+    </article>
+    <article class="card reveal">
+      <h3><span lang="nl">Soorten content</span><span lang="en">Content formats</span></h3>
+      <ul lang="nl">
+        <li>"Dagje uit mijn leven"-vlogs</li>
+        <li>Product in gebruik, onderweg getest</li>
+        <li>Klus- en ombouwvideo's van de camper</li>
+        <li>Sup-, hike- en wildkampeertrips</li>
+      </ul>
+      <ul lang="en">
+        <li>"Day in my life" vlogs</li>
+        <li>Products in real use, tested on the road</li>
+        <li>Camper build and fix-it videos</li>
+        <li>Paddle, hike and wild camping trips</li>
+      </ul>
+    </article>
+    <article class="card reveal">
+      <h3><span lang="nl">Huidige partner</span><span lang="en">Current partner</span></h3>
+      <p class="partner">Moai</p>
+      <p lang="nl">Sup-boards en kayaks. Een doorlopende samenwerking met affiliate-link.</p>
+      <p lang="en">Paddleboards and kayaks. An ongoing partnership with an affiliate link.</p>
+    </article>
+  </div>
+
+  <div class="contact reveal">
+    <div>
+      <h3 lang="nl">Een idee voor een samenwerking?</h3>
+      <h3 lang="en">Got an idea for a collab?</h3>
+      <p lang="nl">Mail me. Ik reageer meestal binnen een paar dagen, afhankelijk van het bereik op de berg.</p>
+      <p lang="en">Email me. I usually reply within a few days, depending on the signal up the mountain.</p>
+    </div>
+    <a class="btn btn--primary btn--lg" data-link="email" href="mailto:EMAIL"><span lang="nl">Mail mij</span><span lang="en">Email me</span> <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<!-- ============ 7. STEUN ============ -->
+<section class="section support" id="steun">
+  <div class="support__card reveal">
+    <p class="eyebrow"><span lang="nl">Steun mijn vanlife</span><span lang="en">Support my vanlife</span></p>
+    <h2 lang="nl">Trakteer Bailey en mij op <em>een koffie</em></h2>
+    <h2 lang="en">Treat Bailey and me to <em>a coffee</em></h2>
+    <p lang="nl">Vind je mijn video's leuk? Met een kleine bijdrage help je mee aan diesel, hondenbrokken en het volgende onderdeel dat stukgaat.</p>
+    <p lang="en">Enjoy my videos? A small tip helps pay for diesel, dog food and the next part that breaks.</p>
+    <a class="btn btn--accent btn--lg" data-link="kofi" href="KOFI_URL" target="_blank" rel="noopener"><span lang="nl">Steun via Ko-fi</span><span lang="en">Support on Ko-fi</span> <span aria-hidden="true">♥</span></a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <a class="brand" href="#home">Nikita <em>Masseling</em></a>
+  <p class="foot__links">
+    <a data-link="tiktok" href="https://www.tiktok.com/@nikitamasseling" target="_blank" rel="noopener">TikTok</a>
+    <a data-link="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+    <a data-link="email" href="mailto:EMAIL"><span lang="nl">Mail</span><span lang="en">Email</span></a>
+  </p>
+  <p class="fine" lang="nl">Deze site gebruikt geen cookies en geen tracking. Video's en posts laden pas als je erop tikt; vanaf dat moment gelden de voorwaarden van TikTok of Instagram.</p>
+  <p class="fine" lang="en">This site uses no cookies and no tracking. Videos and posts only load when you tap them; from then on the terms of TikTok or Instagram apply.</p>
+  <p class="fine">© <span id="year">2026</span> Nikita Masseling · <span lang="nl">Ergens in Spanje</span><span lang="en">Somewhere in Spain</span></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
