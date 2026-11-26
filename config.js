@@ -25,23 +25,23 @@ window.SITE = {
   /* --- 5. Statistieken voor de mediakit --------------------- */
   stats: {
     date:      { nl: "26 nov 2026", en: "26 Nov 2026" },
-    followers: { nl: "4.239",       en: "4,239" },
-    likes:     { nl: "33,6K",       en: "33.6K" },
-    igFollowers: { nl: "6K",        en: "6K" },
-    topViews:  { nl: "184K",        en: "184K" }
+    followers: { nl: "4.232",       en: "4,232" },
+    likes:     { nl: "33,7K",       en: "33.7K" },
+    igFollowers: { nl: "5,7K",      en: "5.7K" },
+    topViews:  { nl: "215K",        en: "215K" }
   },
 
   /* --- 6. TikTok-video's ------------------------------------
      Video toevoegen: kopieer een regel en plak het nummer uit de
      TikTok-link (…/video/DIT_NUMMER) bij id.                    */
   videos: [
-    { id: "7696551344705899809", views: { nl: "184K",  en: "184K"  },
+    { id: "7696551344705899809", views: { nl: "196K",  en: "196K"  },
       nl: "Een dagje met klusjes",            en: "A day of van chores" },
-    { id: "7699129890343243040", views: { nl: "46K",   en: "46K"   },
+    { id: "7699129890343243040", views: { nl: "54K",   en: "54K"   },
       nl: "Kusthike naar een verborgen baai", en: "Coastal hike to a hidden bay" },
-    { id: "7703204911265205536", views: { nl: "11,8K", en: "11.8K" },
+    { id: "7703204911265205536", views: { nl: "12,6K", en: "12.6K" },
       nl: "Walstroom testen",                 en: "Testing shore power" },
-    { id: "7699842492828486944", views: { nl: "11,6K", en: "11.6K" },
+    { id: "7699842492828486944", views: { nl: "12K",   en: "12K"   },
       nl: "Regenachtige vanlife-dag",         en: "A rainy vanlife day" }
   ],
 
