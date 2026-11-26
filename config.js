@@ -27,6 +27,7 @@ window.SITE = {
     date:      { nl: "26 nov 2026", en: "26 Nov 2026" },
     followers: { nl: "4.239",       en: "4,239" },
     likes:     { nl: "33,6K",       en: "33.6K" },
+    igFollowers: { nl: "6K",        en: "6K" },
     topViews:  { nl: "184K",        en: "184K" }
   },
 
@@ -49,5 +50,7 @@ window.SITE = {
      "https://www.instagram.com/p/ABC123/",
      Laat je de lijst leeg, dan toont de site nette lege plekken. */
   instagramPosts: [
+    "https://www.instagram.com/reel/DeewNDkI0vP/",
+    "https://www.instagram.com/reel/Dewo3FAo5CC/"
   ]
 };

@@ -94,6 +94,7 @@
         f.src = clean + "embed/";
         f.title = "Instagram-post " + (i + 1);
         f.allow = "encrypted-media";
+        f.style.height = Math.round(el.clientWidth * 1.26 + 205) + "px";
         el.classList.add("post--loaded");
         this.replaceWith(f);
       });
