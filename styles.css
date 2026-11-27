@@ -294,4 +294,4 @@ html[lang="nl"] [lang="en"], html[lang="en"] [lang="nl"] { display: none !import
 .step img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 22px; box-shadow: var(--shadow); }
 .step figcaption { display: flex; gap: 12px; align-items: baseline; margin-top: 12px; font-size: .98rem; line-height: 1.35; }
 .step figcaption b { font: italic 300 1.3rem/1 var(--serif); color: var(--sunset-ink); }
-@media (min-width: 900px) { .build { grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); gap: 28px 22px; overflow: visible; margin-inline: auto !important; padding: 0; max-width: var(--max) !important; } }
+@media (min-width: 900px) { .build { grid-auto-flow: row; grid-template-columns: repeat(5, 1fr); gap: 28px 22px; overflow: visible; margin-inline: auto !important; padding: 0; max-width: var(--max) !important; } }
