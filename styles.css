@@ -287,3 +287,11 @@ html[lang="nl"] [lang="en"], html[lang="en"] [lang="nl"] { display: none !import
 [hidden] { display: none !important; }
 
 @media (min-width: 1000px) { .stats { grid-template-columns: 1.5fr 1fr 1fr 1fr; } .stat--big { grid-column: auto; } .stat b { font-size: 3.4rem; } .stat--big b { font-size: 5.4rem; } }
+
+/* Busbouw */
+.build { display: grid; grid-auto-flow: column; grid-auto-columns: min(70vw, 280px); gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: calc(-1 * var(--pad)) !important; padding: 4px var(--pad) 18px; max-width: none !important; scrollbar-width: thin; }
+.step { margin: 0; scroll-snap-align: center; }
+.step img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 22px; box-shadow: var(--shadow); }
+.step figcaption { display: flex; gap: 12px; align-items: baseline; margin-top: 12px; font-size: .98rem; line-height: 1.35; }
+.step figcaption b { font: italic 300 1.3rem/1 var(--serif); color: var(--sunset-ink); }
+@media (min-width: 900px) { .build { grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); gap: 28px 22px; overflow: visible; margin-inline: auto !important; padding: 0; max-width: var(--max) !important; } }
