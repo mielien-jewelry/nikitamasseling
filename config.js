@@ -28,7 +28,7 @@ window.SITE = {
     followers: { nl: "4.232",       en: "4,232" },
     likes:     { nl: "33,7K",       en: "33.7K" },
     igFollowers: { nl: "5,7K",      en: "5.7K" },
-    topViews:  { nl: "196K",        en: "196K" }
+    topViews:  { nl: "281K",        en: "281K" }
   },
 
   /* --- 6. TikTok-video's ------------------------------------
